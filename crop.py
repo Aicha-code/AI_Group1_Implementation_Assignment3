@@ -1,6 +1,7 @@
 import streamlit as st
 
-# Expanded disease knowledge base with Cassava added
+st.set_page_config(page_title="Crop disease detection and prevention", page_icon="🌱")
+#disease knowledge base
 
 disease_data = {
     "Maize": {
